@@ -43,14 +43,14 @@ formatter.match({
   "location": "calculatorStepDefs.i_have_a_calc_with(int,int)"
 });
 formatter.result({
-  "duration": 1451236521,
+  "duration": 303262636,
   "status": "passed"
 });
 formatter.match({
   "location": "calculatorStepDefs.i_ask_it_to_say_add()"
 });
 formatter.result({
-  "duration": 69477,
+  "duration": 58424,
   "status": "passed"
 });
 formatter.match({
@@ -63,7 +63,7 @@ formatter.match({
   "location": "calculatorStepDefs.it_should_answer_with_add(int)"
 });
 formatter.result({
-  "duration": 2817388,
+  "duration": 2526451,
   "status": "passed"
 });
 formatter.scenario({
@@ -103,14 +103,14 @@ formatter.match({
   "location": "calculatorStepDefs.i_have_a_calc_with(int,int)"
 });
 formatter.result({
-  "duration": 313043,
+  "duration": 290937,
   "status": "passed"
 });
 formatter.match({
   "location": "calculatorStepDefs.i_ask_it_to_say_subtract()"
 });
 formatter.result({
-  "duration": 63951,
+  "duration": 53687,
   "status": "passed"
 });
 formatter.match({
@@ -123,7 +123,7 @@ formatter.match({
   "location": "calculatorStepDefs.it_should_answer_with_sub(int)"
 });
 formatter.result({
-  "duration": 115270,
+  "duration": 127902,
   "status": "passed"
 });
 formatter.scenario({
@@ -163,14 +163,14 @@ formatter.match({
   "location": "calculatorStepDefs.i_have_a_calc_with(int,int)"
 });
 formatter.result({
-  "duration": 271199,
+  "duration": 207248,
   "status": "passed"
 });
 formatter.match({
   "location": "calculatorStepDefs.i_ask_it_to_say_divide()"
 });
 formatter.result({
-  "duration": 72636,
+  "duration": 54477,
   "status": "passed"
 });
 formatter.match({
@@ -183,7 +183,7 @@ formatter.match({
   "location": "calculatorStepDefs.it_should_answer_with_div(int)"
 });
 formatter.result({
-  "duration": 117243,
+  "duration": 138955,
   "status": "passed"
 });
 });
