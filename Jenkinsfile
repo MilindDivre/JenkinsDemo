@@ -6,7 +6,7 @@ pipeline {
 
             steps {
                 withMaven(maven : 'Maven') {
-                    cmd 'mvn clean compile'
+					bat 'start cmd.exe /c mvn clean compile'
                 }
             }
         }
@@ -15,7 +15,7 @@ pipeline {
 
             steps {
                 withMaven(maven : 'Maven') {
-                    cmd 'mvn test'
+					bat 'start cmd.exe /c mvn test'
                 }
             }
         }
@@ -24,7 +24,7 @@ pipeline {
         stage ('Deployment Stage') {
             steps {
                 withMaven(maven : 'Maven') {
-                    cmd 'mvn deploy'
+					bat 'start cmd.exe /c mvn deploy'
                 }
             }
         }
