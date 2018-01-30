@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Scenario: calculate divide
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.71 s - in Scenario: calculate divide
